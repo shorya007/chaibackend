@@ -62,7 +62,7 @@ app.get('/youtube', (req, res) => {
 });
 
 app.get('/github', (req,res)=> {
-  res.json(git)
+  res.json(githubData)
 })
 
 // Server must listen on PORT
